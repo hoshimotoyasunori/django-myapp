@@ -22,7 +22,7 @@ pip install -r requirements.txt
 source venv/bin/activate
 ```
 
-仮想環境’venv’に出る
+仮想環境’venv’を出る
 
 ```bash
 deactivate
