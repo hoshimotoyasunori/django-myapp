@@ -1,6 +1,6 @@
 # Django-myapp
 
-djangoで初めてアプリを作成してみた
+djangoで初めて日記アプリを作成してみた
 
 ## DEMO
 
