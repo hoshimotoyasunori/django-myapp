@@ -36,3 +36,9 @@ deactivate
 cd myapp
 python3 manage.py runserver
 ```
+
+## mysql構築参考記事
+
+```bash
+https://qiita.com/kanazawa1226/items/e222604943c500801746
+```
