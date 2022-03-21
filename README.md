@@ -2,7 +2,7 @@
 
 djangoで初めてアプリを作成してみた
 
-## DEMO
+## 準備
 
 "hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
 
@@ -36,5 +36,3 @@ deactivate
 cd myapp
 python3 manage.py runserver
 ```
-
-111
