@@ -1,10 +1,11 @@
 # Django-myapp
 
 djangoで初めてアプリを作成してみた
+日記アプリ
 
 ## 準備
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+基本的なCLUD処理
 
 ## Installation
 

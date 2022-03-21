@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    {% comment %} <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% endcomment %}
-    <title>Myapp</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
     <h1>Diary App by Django</h1>
     <h2><a href="{% url 'diary:diary_create' %}">日記の投稿</a></h2>
     <h2><a href="{% url 'diary:diary_list' %}">日記の一覧</a></h2>
-</body>
-</html>
+{% endblock %}

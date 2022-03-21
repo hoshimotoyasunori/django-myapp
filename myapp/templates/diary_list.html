@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    {% comment %} <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% endcomment %}
-    <title>Myapp</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
     {% for diary in diary_list %}
         <p>
             {{ diary.date }}
@@ -14,5 +7,4 @@
         </p>
     {% endfor %}
     <a href="{% url 'diary:index' %}">戻る</a>
-</body>
-</html>
+{% endblock %}
