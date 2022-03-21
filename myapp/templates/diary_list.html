@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    {% comment %} <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% endcomment %}
+    <title>Myapp</title>
+</head>
+<body>
+    {% for diary in diary_list %}
+        <p>
+            {{ diary.date }}
+            <a href="{% url 'diary:diary_detail' diary.pk %}">{{ diary.title }}</a>
+        </p>
+    {% endfor %}
+    <a href="{% url 'diary:index' %}">戻る</a>
+</body>
+</html>
